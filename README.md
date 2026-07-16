@@ -9,8 +9,8 @@ Each algorithm is implemented and verified in its own notebook. These include si
 | Notebook | Description |
 |----------|-------------|
 | [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's algorithm — Determine in a single query whether a one-bit black-box function is constant or balanced |
-| [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa — generalized to arbitrary input size |
-| [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani — recovering a hidden bitstring in a single query |
+| [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa Algorithm — Determine in a single query whether an n-bit black-box function is constant or balanced|
+| [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani Algorithm — Recover a hidden n-bit string from a linear black-box function in a single query |
 | [`simon.ipynb`](simon.ipynb) | Simon's algorithm — finding a hidden period, the precursor to Shor's |
 | [`quantum_teleportation.ipynb`](quantum_teleportation.ipynb) | Quantum teleportation of an arbitrary single-qubit state |
 | [`superdense_coding.ipynb`](superdense_coding.ipynb) | Superdense coding — transmitting two classical bits via one qubit |
