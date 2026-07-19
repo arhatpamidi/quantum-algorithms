@@ -11,7 +11,7 @@ Each algorithm is implemented and verified in its own notebook. These include si
 | [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's algorithm — Determine in a single query whether a one-bit black-box function is constant or balanced |
 | [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa Algorithm — Determine in a single query whether an n-bit black-box function is constant or balanced|
 | [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani Algorithm — Recover a hidden n-bit string from a linear black-box function in a single query |
-| [`simon.ipynb`](simon.ipynb) | Simon's algorithm — finding a hidden period, the precursor to Shor's |
+| [`simon.ipynb`](simon.ipynb) | Simon's Algorithm - Recover the hidden period of a 2:1 function or identify it as 1:1 in $O(n)$ |
 | [`quantum_teleportation.ipynb`](quantum_teleportation.ipynb) | Quantum teleportation of an arbitrary single-qubit state |
 | [`superdense_coding.ipynb`](superdense_coding.ipynb) | Superdense coding — transmitting two classical bits via one qubit |
 | [`chsh_game.ipynb`](chsh_game.ipynb) | CHSH game / Bell inequality test — demonstrating a quantum violation of the classical bound |
