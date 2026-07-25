@@ -15,7 +15,7 @@ Each algorithm is implemented and verified in its own notebook. These include si
 | [`quantum_teleportation.ipynb`](quantum_teleportation.ipynb) | Quantum Teleportation - Transfer an arbitrary single qubit state using an entangled Bell pair |
 | [`superdense_coding.ipynb`](superdense_coding.ipynb) | Superdense Coding — Transmit 2 classical bits by sending 1 qubit of a Bell pair, mirroring quantum teleportation |
 | [`chsh_game.ipynb`](chsh_game.ipynb) | CHSH Game — Demonstrate quantum mechanics' incompatibility with local hidden variable theories through violation of classical CHSH bound using entanglement |
-| [`qft.ipynb`](qft.ipynb) | Quantum Fourier Transform |
+| [`qft.ipynb`](qft.ipynb) | Quantum Fourier Transform and Inverse - Map states between standard computational basis and Fourier basis |
 | [`quantum_phase_estimation.ipynb`](quantum_phase_estimation.ipynb) | Quantum Phase Estimation — eigenvalue estimation, the core subroutine of Shor's |
 | [`grovers.ipynb`](grovers.ipynb) | Grover's search — quadratic speedup for unstructured search |
 | [`shors_rsa.ipynb`](shors_rsa.ipynb) | Shor's algorithm with end-to-end RSA factoring |
