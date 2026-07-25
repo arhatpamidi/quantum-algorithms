@@ -8,7 +8,7 @@ Each algorithm is implemented and verified in its own notebook. These include si
 
 | Notebook | Description |
 |----------|-------------|
-| [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's algorithm — Determine in a single query whether a one-bit black-box function is constant or balanced |
+| [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's Algorithm — Determine in a single query whether a one-bit black-box function is constant or balanced |
 | [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa Algorithm — Determine in a single query whether an n-bit black-box function is constant or balanced |
 | [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani Algorithm — Recover a hidden n-bit string from a linear black-box function in a single query |
 | [`simon.ipynb`](simon.ipynb) | Simon's Algorithm - Recover the hidden period of a 2:1 function or identify it as 1:1 in $O(n)$ |
@@ -17,7 +17,7 @@ Each algorithm is implemented and verified in its own notebook. These include si
 | [`chsh_game.ipynb`](chsh_game.ipynb) | CHSH Game — Demonstrate quantum mechanics' incompatibility with local hidden variable theories through violation of the classical CHSH bound using entanglement |
 | [`qft.ipynb`](qft.ipynb) | Quantum Fourier Transform and Inverse - Map states between standard computational basis and Fourier basis |
 | [`quantum_phase_estimation.ipynb`](quantum_phase_estimation.ipynb) | Quantum Phase Estimation — Estimate the eigenphase of a unitary's eigenstate up to n-bit precision |
-| [`grovers.ipynb`](grovers.ipynb) | Grover's search — quadratic speedup for unstructured search |
+| [`grovers.ipynb`](grovers.ipynb) | Grover's Search Algorithm — Find an n-bit solution x to a black-box function f in √N queries, demonstrating a quadratic speedup, additionally considering the impact of oracle construction |
 | [`shors_rsa.ipynb`](shors_rsa.ipynb) | Shor's algorithm with end-to-end RSA factoring |
 
 ## Tools
