@@ -8,18 +8,18 @@ Each algorithm is implemented and verified in its own notebook. These include si
 
 | Notebook | Description |
 |----------|-------------|
-| [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's Algorithm — Determine in a single query whether a one-bit black-box function is constant or balanced |
-| [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa Algorithm — Determine in a single query whether an n-bit black-box function is constant or balanced |
-| [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani Algorithm — Recover a hidden n-bit string from a linear black-box function in a single query |
-| [`simon.ipynb`](simon.ipynb) | Simon's Algorithm - Recover the hidden period of a 2:1 function or identify it as 1:1 in $O(n)$ |
-| [`quantum_teleportation.ipynb`](quantum_teleportation.ipynb) | Quantum Teleportation - Transfer an arbitrary single qubit state using an entangled Bell pair |
-| [`superdense_coding.ipynb`](superdense_coding.ipynb) | Superdense Coding — Transmit 2 classical bits by sending 1 qubit of a Bell pair, mirroring quantum teleportation |
-| [`chsh_game.ipynb`](chsh_game.ipynb) | CHSH Game — Demonstrate quantum mechanics' incompatibility with local hidden variable theories through violation of the classical CHSH bound using entanglement |
+| [`deutsch.ipynb`](deutsch.ipynb) | Deutsch's Algorithm - Determine in a single query whether a one-bit black-box function is constant or balanced |
+| [`deutsch_jozsa.ipynb`](deutsch_jozsa.ipynb) | Deutsch-Jozsa Algorithm - Determine in a single query whether an n-bit black-box function is constant or balanced |
+| [`bernstein_vazirani.ipynb`](bernstein_vazirani.ipynb) | Bernstein-Vazirani Algorithm - Recover a hidden n-bit string from a linear black-box function in a single query |
+| [`simon.ipynb`](simon.ipynb) | Simon's Algorithm - Recover the hidden period of a 2:1 function or identify it as 1:1 in O(n) queries |
+| [`quantum_teleportation.ipynb`](quantum_teleportation.ipynb) | Quantum Teleportation - Transfer an arbitrary single-qubit state using an entangled Bell pair |
+| [`superdense_coding.ipynb`](superdense_coding.ipynb) | Superdense Coding - Transmit 2 classical bits by sending 1 qubit of a Bell pair, mirroring quantum teleportation |
+| [`chsh_game.ipynb`](chsh_game.ipynb) | CHSH Game - Demonstrate quantum mechanics' incompatibility with local hidden variable theories through violation of the classical CHSH bound using entanglement |
 | [`qft.ipynb`](qft.ipynb) | Quantum Fourier Transform and Inverse - Map states between standard computational basis and Fourier basis |
-| [`quantum_phase_estimation.ipynb`](quantum_phase_estimation.ipynb) | Quantum Phase Estimation — Estimate the eigenphase of a unitary's eigenstate up to n-bit precision |
-| [`grovers.ipynb`](grovers.ipynb) | Grover's Search Algorithm — Find an n-bit solution x to a black-box function f in √N queries, demonstrating a quadratic speedup, additionally considering the impact of oracle construction |
-| [`shors_rsa.ipynb`](shors_rsa.ipynb) | Shor's algorithm with end-to-end RSA factoring |
+| [`quantum_phase_estimation.ipynb`](quantum_phase_estimation.ipynb) | Quantum Phase Estimation - Estimate the eigenphase of a unitary's eigenstate up to n-bit precision |
+| [`grovers.ipynb`](grovers.ipynb) | Grover's Search Algorithm - Find an n-bit solution x to a black-box function f in √N queries, demonstrating a quadratic speedup, additionally considering the impact of oracle construction |
+| [`shors_rsa.ipynb`](shors_rsa.ipynb) | Shor's Algorithm - Factor a semiprime N using period-finding cast as quantum phase estimation achieving exponential speedup on best-known classical algorithms, to break RSA end-to-end |
 
 ## Tools
 
-Python, Qiskit, NumPy
+Python, Qiskit, NumPy, matplotlib
